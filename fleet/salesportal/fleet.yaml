@@ -41,7 +41,7 @@ targetCustomizations:
         dotnet:
           environment: Development
           enableSwagger: true
-          enableOpenTelemetry: false
+          enableOpenTelemetry: true
           skipCertificateValidation: true
           logLevel: Debug
         mongodb:
